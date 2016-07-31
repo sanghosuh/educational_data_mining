@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box; }
 
-body {
+body, #header{
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -17,7 +17,6 @@ a {
 
 nav-bar {
   float:left;
-  position:fixed;
 }
 
 nav-bar img {
@@ -27,6 +26,7 @@ nav-bar img {
 
 #profile {
   margin: 30px;
+  display:block;
 }
 
 ul>li {
@@ -226,7 +226,7 @@ ul>li {
 
 @media screen and (min-width: 64em) {
   .main-content {
-    max-width: 64rem;
+    max-width: 70rem;
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem; } }
